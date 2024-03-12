@@ -1,0 +1,101 @@
+.app-container{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.responsive-container{
+    background-color: rgb(2, 130, 130);
+    height: 90vh;
+    border: none;
+    border-radius: 12px;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+
+}
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.input-field{
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.submit-btn{
+    color: white;
+    background-color: rgb(95, 122, 203);
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.todos-list-display-container{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 50%;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(95, 122, 203);
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 700px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.todo-title{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.todo-controls-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}
+.edit-icon-btn,.delete-icon-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.edit-icon{
+    color: white;
+    font-size: 18px;
+
+}
+
+.delete-icon{
+    color: red;
+    font-size: 18px;
+}
